@@ -4,12 +4,12 @@
     },
     {
         "id": 2,
-        "parent": 3,
+        "parent": 1,
         "name": "Clouded leopard, Neofelis nebulosa"
     },
     {
         "id": 3,
-        "parent": 3
+        "parent": 1
     },
     {
         "id": 4,
