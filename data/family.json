@@ -1,0 +1,84 @@
+[
+    {
+        "id": 1,
+        "colour": "#db0b0b"
+    },
+    {
+        "id": 2,
+        "parent": 1,
+        "name": "Clouded leopard, Neofelis nebulosa",
+        "colour": "#db0b0b"
+    },
+    {
+        "id": 3,
+        "parent": 1,
+        "colour": "#db0b0b"
+    },
+    {
+        "id": 4,
+        "parent": 3,
+        "colour": "#db0b0b"
+    },
+    {
+        "id": 5,
+        "parent": 3,
+        "colour": "#db0b0b"
+    },
+    {
+        "id": 6,
+        "parent": 4,
+        "name": "Snow leopard, Panthera uncia",
+        "colour": "#db0b0b"
+    },
+    {
+        "id": 7,
+        "parent": 4,
+        "colour": "#db0b0b"
+    },
+    {
+        "id": 8,
+        "parent": 5,
+        "name": "Siberian Tiger, Panthera tigris altaica",
+        "colour": "#db0b0b"
+    },
+    {
+        "id": 9,
+        "parent": 5,
+        "colour": "#db0b0b"
+    },
+    {
+        "id": 10,
+        "parent": 7,
+        "name": "Asiatic lion, Panthera leo persica",
+        "colour": "#db0b0b"
+    },
+    {
+        "id": 11,
+        "parent": 7,
+        "name": "Leopard, Panthera pardus",
+        "colour": "#db0b0b"
+    },
+    {
+        "id": 12,
+        "parent": 9,
+        "name": "South China tiger, Panthera tigris amoyensis",
+        "colour": "#db0b0b"
+    },
+    {
+        "id": 13,
+        "parent": 9,
+        "colour": "#db0b0b"
+    },
+    {
+        "id": 14,
+        "parent": 13,
+        "name": "Indochinese tiger, Panthera tigris corbetti",
+        "colour": "#db0b0b"
+    },
+    {
+        "id": 15,
+        "parent": 13,
+        "name": "Sumatran tiger, Panthera tigris sumatrae",
+        "colour": "#db0b0b"
+    }
+]
