@@ -1,28 +1,28 @@
 [
     {
         "id": 1,
-        "colour": 1
+        "colour": null
     },
     {
         "id": 2,
         "parent": 1,
-        "name": "Clouded leopard, Neofelis nebulosa",
+        "name": "Clouded leopard, Neofelis nebulosa
         "colour": 2
     },
     {
         "id": 3,
         "parent": 1,
-        "colour": 1
+        "colour": null
     },
     {
         "id": 4,
         "parent": 3,
-        "colour": 1
+        "colour": null
     },
     {
         "id": 5,
         "parent": 3,
-        "colour": 1
+        "colour": null
     },
     {
         "id": 6,
@@ -33,7 +33,7 @@
     {
         "id": 7,
         "parent": 4,
-        "colour": 1
+        "colour": null
     },
     {
         "id": 8,
@@ -44,7 +44,7 @@
     {
         "id": 9,
         "parent": 5,
-        "colour": 1
+        "colour": null
     },
     {
         "id": 10,
@@ -67,7 +67,7 @@
     {
         "id": 13,
         "parent": 9,
-        "colour": 1
+        "colour": null
     },
     {
         "id": 14,
