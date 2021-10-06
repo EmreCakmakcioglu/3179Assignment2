@@ -28,7 +28,7 @@
         "id": 6,
         "parent": 4,
         "name": "Snow leopard, Panthera uncia",
-        "colour": 2
+        "colour": 4
     },
     {
         "id": 7,
@@ -50,13 +50,13 @@
         "id": 10,
         "parent": 7,
         "name": "Asiatic lion, Panthera leo persica",
-        "colour": 2
+        "colour": 4
     },
     {
         "id": 11,
         "parent": 7,
         "name": "Leopard, Panthera pardus",
-        "colour": 2
+        "colour": 4
     },
     {
         "id": 12,
