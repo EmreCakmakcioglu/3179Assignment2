@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "colour": null
+        "colour": 1
     },
     {
         "id": 2,
@@ -12,17 +12,17 @@
     {
         "id": 3,
         "parent": 1,
-        "colour": null
+        "colour": 1
     },
     {
         "id": 4,
         "parent": 3,
-        "colour": null
+        "colour": 1
     },
     {
         "id": 5,
         "parent": 3,
-        "colour": null
+        "colour": 1
     },
     {
         "id": 6,
@@ -33,7 +33,7 @@
     {
         "id": 7,
         "parent": 4,
-        "colour": null
+        "colour": 1
     },
     {
         "id": 8,
@@ -44,7 +44,7 @@
     {
         "id": 9,
         "parent": 5,
-        "colour": null
+        "colour": 1
     },
     {
         "id": 10,
@@ -67,7 +67,7 @@
     {
         "id": 13,
         "parent": 9,
-        "colour": null
+        "colour": 1
     },
     {
         "id": 14,
