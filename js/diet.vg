@@ -1,0 +1,38 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title":"Percentage of Tiger Prey (Sariska Tiger Reserve)",
+    "description": "https://www.researchgate.net/figure/Percentage-occurrence-of-prey-species-in-tiger-diet-based-on-kill-data-in-Sariska-Tiger_fig1_286701451",
+    "width": 300,
+    "height": 300,
+    
+    
+    "data": {
+      "values": [
+        {"category": "Sambar Deer", "percentage": 45},
+        {"category": "Chital Deer", "percentage": 15},
+        {"category": "Nilgai", "percentage": 17},
+        {"category": "Cattle", "percentage": 10},
+        {"category": "Wildpig", "percentage": 9},
+        {"category": "Porcupine", "percentage": 1},
+        {"category": "Goat", "percentage": 3}
+      ]
+    },
+    "mark": "arc",
+    "encoding": {
+      "theta": {"field": "percentage", "type": "quantitative", "stack":true},
+      "color": {"field": "category", "type": "nominal"},
+      "tooltip": [
+        {"field": "category", "type": "nominal"},
+        {"field": "percentage", "type": "quantitative"}
+      ],
+      "order":{"field": "percentage", "sort": "descending"}
+    },
+    "config": {
+        "view": {
+           "stroke": "transparent"
+        }
+      }
+    
+    
+
+}
