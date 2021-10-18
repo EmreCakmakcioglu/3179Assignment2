@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega/v5.json",
     "title": "Tiger Family Tree",
     "description": "http://www.funpecrp.com.br/gmr/year2013/vol12-3/pdf/gmr2279.pdf",
-    "width": 600,
+    "width": 300,
     "height": 600,
     "padding": 5,
 

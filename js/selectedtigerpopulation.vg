@@ -1,22 +1,26 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Tiger population",
-    "data": {"url": "https://raw.githubusercontent.com/EmreCakmakcioglu/3179Assignment2/main/data/SelectedPop.csv"},    
+    "title": "Tiger Population (China, India, Indonesia)",
+    "data": {"url": "https://raw.githubusercontent.com/EmreCakmakcioglu/3179Assignment2/main/data/SelectedPop.csv"}, 
     
     "mark": {
         "type":"line",
         "point":true
     },
+    
     "encoding": {
-        "x": {"field":"Year", "type": "temporal"},
-        "y": {"field": "Population", "type": "quantitative"},
+        "x": {"field":"Year", "type": "temporal", "axis":{"grid": false}},
+        "y": {"field": "Population", "type": "quantitative",
+                "scale": {"type": "symlog", "domain":[0,100000]}, "axis":{"grid": false, "values":[10, 100, 10000, 100000]}},
         "color":{"field":"Country","type": "nominal"},
         "tooltip":[
             {"field": "Year", "type": "temporal"},
             {"field": "Population" , "type": "quantitative"}
         ]
+        
+        
     },
-
+    
     "params":[
         {
             "name": "Country_Selection",
@@ -44,7 +48,7 @@
     ],
 
     
-    "width": 400,
+    "width": 340,
     "height": 400,
     "config": {
         "view": {
